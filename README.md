@@ -27,7 +27,7 @@ Example Playbook
 
 ```yaml
 - name: Configure firewall rules
-  hosts: all
+  hosts: opnsense
 
   roles:
     - role: mirceanton.opnsense_rules
