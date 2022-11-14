@@ -1,0 +1,7 @@
+---
+- name: Configure Firewall Rules
+  community.general.xml:
+    pretty_print: true
+    path: "{{ local_file }}"
+    xpath: "{{ xpath }}"
+    set_children: "{{ opnsense_firewall_rules }}"
