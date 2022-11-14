@@ -17,5 +17,6 @@ galaxy_info:
   galaxy_tags:
     - opnsense
     - firewall
+    - rules
 
 dependencies: []
